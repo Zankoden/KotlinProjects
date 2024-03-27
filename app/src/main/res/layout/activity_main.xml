@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/textView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#E1DBDB"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="50dp"
+        android:layout_marginHorizontal="120dp"
+        android:text="Kitabord"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/powerlawsbook"
+        android:contentDescription="@string/book_logo"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/book_display_name"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="60dp"
+        android:text="The 48 Power Law"
+        android:textSize="12sp"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="120dp"
+        android:ems="30"
+        android:inputType="text"
+        android:hint="Search your books here..."
+        />
+    <Button
+        android:id="@+id/btnClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="300dp"
+        android:text="search"
+        />
+    <Button
+        android:id="@+id/btnRead"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:layout_marginLeft="30dp"
+        android:text="READ"
+        />
+
+    <Button
+        android:id="@+id/buttopage2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="130dp"
+        android:text="DEMO NEXT PAGE"
+        />
+
+    <WebView
+        android:id="@+id/pdfWebView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+<!--    <Switch-->
+<!--        android:id="@+id/switch1"-->
+<!--        android:layout_width="169dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentStart="true"-->
+
+<!--        android:layout_alignParentTop="true"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_marginStart="229dp"-->
+<!--        android:layout_marginTop="145dp"-->
+<!--        android:layout_marginEnd="13dp"-->
+<!--        android:layout_marginBottom="545dp"-->
+<!--        android:text="Dark Mode(Switch)" />-->
+
+
+</RelativeLayout>
